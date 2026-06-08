@@ -21,7 +21,7 @@ void loop() {
 
   tampaAberta = digitalRead(sensor);
   
-  if(chegouFim){
+  if(tampaAberta){
     Serial.println("tampa aberta");
     digitalWrite(led, LOW);
     digitalWrite(motor, LOW);  
