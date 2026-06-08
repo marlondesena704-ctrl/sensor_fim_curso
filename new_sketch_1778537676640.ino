@@ -5,7 +5,7 @@ int sensor=6;
 int led = 5;
 int motor = 4;
 
-bool chegouFim; 
+bool tampaAberta; 
 /* variável que guardará o estado lógico do botão:
 false (0): ainda não chegou no fim de curso
 ou true(1) chegou ao fim de curso */
