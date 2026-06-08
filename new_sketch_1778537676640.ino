@@ -17,7 +17,7 @@ void setup() {
   Serial.begin(9600); //inicia a comunicação pelo Monitor Serial
 }
 
-void loop() {
+void loop() { // inicia o ciclo de repetição do código
 
   tampaAberta = digitalRead(sensor);
   
