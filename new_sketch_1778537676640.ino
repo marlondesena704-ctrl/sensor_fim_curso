@@ -19,7 +19,7 @@ void setup() {
 
 void loop() {
 
-  chegouFim = digitalRead(sensor);
+  tampaAberta = digitalRead(sensor);
   
   if(chegouFim){
     Serial.println("tampa aberta");
